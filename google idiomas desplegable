@@ -1,0 +1,22 @@
+
+ <!DOCTYPE html>
+<html>
+<head>
+<title>FALSO GOOGLE</title>
+</head>
+<body>
+<form method="GET" action="https://www.google.es/search">
+
+Ponga la palabra:
+<input type="text" name="q">
+<br>
+Ponga el idioma <select id="idioma" name="hl">
+    <option value="es">Español</option>
+    <option value="en">Inglés</option> 
+    <option value="zh">Chino</option>
+<input type="submit" value="ENVIAR">
+</select>
+</form>
+
+</body>
+</html> 
